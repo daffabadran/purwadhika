@@ -87,3 +87,14 @@ venv.bak/
 # Temporary folders
 tmp/
 temp/
+
+# Backup files
+*-back.json
+*.backup
+*.bak
+
+# Juga pastikan sudah ada ignore untuk:
+node_modules/
+dist/
+.env
+package-lock.json
