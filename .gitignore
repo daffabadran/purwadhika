@@ -3,11 +3,15 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnp.*
+.yarn/*
+.pnpm-debug.log*
 
 # TypeScript build output
 dist/
 build/
 *.tsbuildinfo
+.tscache/
 
 # Environment variables
 .env
@@ -37,6 +41,7 @@ coverage/
 
 # Dependency directories
 jspm_packages/
+web_modules/
 
 # Optional npm cache directory
 .npm
@@ -89,12 +94,8 @@ tmp/
 temp/
 
 # Backup files
-*-back.json
 *.backup
+*-back.*
+backup/
 *.bak
-
-# Juga pastikan sudah ada ignore untuk:
-node_modules/
-dist/
-.env
-package-lock.json
+*.tmp
